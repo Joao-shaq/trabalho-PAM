@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 01 - Calcular IMC</title>
+    <meta name="theme-color" content="#8b008b">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="manifest" href="./json/manifest.json">
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+    <div id="form_box">
+        <h1>Calcular<br>IMC</h1>
+
+        <label for="i_nome">NOME</label>
+        <input type="text" id="i_nome">
+
+        <label for="i_peso">PESO (KG)</label>
+        <input type="number" id="i_peso" step="any">
+
+        <label for="i_altura">ALTURA (METROS)</label>
+        <input type="number" id="i_altura" step="any">
+
+        <input type="button" value="CALCULAR" id="btt_calcular">
+    </div>
+
+    <div id="form_resp">
+        <h1>Resposta</h1>
+        <div id="resultado" class="log"></div>
+    </div>
+</body>
+
+</html>

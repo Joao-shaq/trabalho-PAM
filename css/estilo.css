@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Underdog&display=swap');
+
+body {
+    background-color: #000000;
+    font-family: "Underdog", system-ui;
+    font-size: 20px;
+    transition: background-color 0.4s ease;
+}
+
+body.abaixo {
+    background-color: #f0e68c;
+}
+body.normal {
+    background-color: #32cd32;
+}
+body.sobrepeso {
+    background-color: #ffa500;
+}
+body.obesidade {
+    background-color: #ff4500;
+}
+
+h1 {
+    text-align: center;
+}
+
+#form_box, #form_resp {
+    margin: auto;
+    background-color: #ffffff;
+    padding: 30px 30px 100px 30px;
+    width: max-content;
+    border-radius: 40px;
+    display: none;
+}
+
+#form_box {
+    display: block;
+}
+
+label, input {
+    display: block;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+#i_nome, #i_peso, #i_altura {
+    width: 250px;
+    height: 30px;
+    margin-bottom: 15px;
+    border: 1px solid #808080;
+    box-shadow: 5px 5px 5px #63a87d;
+    border-radius: 100px;
+}
+
+#btt_calcular, #btt_trocar {
+    cursor: pointer;
+    border-radius: 100%;
+    width: 100%;
+    height: 35px;
+    border: none;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "Underdog", system-ui;
+    margin-top: 20px;
+}
